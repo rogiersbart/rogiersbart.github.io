@@ -9,9 +9,10 @@ output:
   postcards::trestles
 ---
  
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css">
+
 <font style='font-size:87.5%;color:#777;'>
- 
 \> read_rds("message.rds") %>% cat()
  
 Hi there!
