@@ -7,9 +7,9 @@ links:
   - github: "https://github.com/rogiersbart"
 output:
   postcards::trestles
+favicon: "favicon.ico"
 ---
  
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css">
 
 <font style='font-size:87.5%;color:#777;'>
@@ -22,8 +22,8 @@ My name is **Bart Rogiers**, and I'm a **scientific researcher** and
 Research Centre](https://www.sckcen.be/en)** (aka SCK CEN). I also have a seat
 in the council of the **[International Association of
 Hydrogeologists](https://iah.org/)' [Belgian
-chapter](https://belgium.iah.org/)**. Besides coding and science, I love creating
-**art**, playing **guitar** and taking **photos**.
+chapter](https://belgium.iah.org/)**. Besides coding and science, **I also love 
+being creative** with pencil, paint, photos and guitars.
 
 You can find some contact information here, as well as some links to things I'm
 involved in, or just doing out in the open. I love feedback on any of these, so
