@@ -33,6 +33,13 @@
                 <ul class="list-inline">
 
                                                       <li class="list-inline-item">
+                    <a href="https://github.com/rogiersbart">
+                      <button type="button" class="btn btn-outline-dark">
+                        github
+                      </button>
+                    </a>
+                  </li>
+                                                                        <li class="list-inline-item">
                     <a href="https://twitter.com/rogiersbart">
                       <button type="button" class="btn btn-outline-dark">
                         twitter
@@ -46,13 +53,6 @@
                       </button>
                     </a>
                   </li>
-                                                                        <li class="list-inline-item">
-                    <a href="https://github.com/rogiersbart">
-                      <button type="button" class="btn btn-outline-dark">
-                        github
-                      </button>
-                    </a>
-                  </li>
                                                     </ul>
               </div>
             </div>
@@ -60,7 +60,7 @@
         </div>
         <div class="d-flex flex-col px-5 align-items-center">
           <div id="content">
-            <p><link rel="stylesheet" href="data:text/css,%2Eh1%2C%20h1%20%7B%0Acolor%3A%20%23555%3B%0A%7D%0Abody%20%7B%0Afont%2Dfamily%3A%20%27Fira%20Code%27%2C%20%27Fira%20Mono%27%2C%20%27Roboto%20Slab%27%2C%20serif%3B%0Acolor%3A%20%23333%3B%0A%7D%0Aa%2C%20a%3Alink%2C%20a%3Avisited%2C%20a%3Aactive%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%23333%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0A%23content%20%7B%0Amax%2Dwidth%3A%20700px%3B%0A%7D%0Ab%2C%20strong%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0A"></p>
+            <p><link rel="stylesheet" href="data:text/css,%2Eh1%2C%20h1%20%7B%0Acolor%3A%20%23555%3B%0A%7D%0Abody%20%7B%0Afont%2Dfamily%3A%20%27Fira%20Code%27%2C%20%27Fira%20Mono%27%2C%20%27Roboto%20Slab%27%2C%20serif%3B%0Acolor%3A%20%23333%3B%0A%7D%0Aa%2C%20a%3Alink%2C%20a%3Avisited%2C%20a%3Aactive%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%23333%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0A%23content%20%7B%0Amax%2Dwidth%3A%20700px%3B%0A%7D%0Ab%2C%20strong%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aimg%2Erounded%20%7B%0Aborder%2Dradius%3A%2050%25%21important%3B%0A%7D%0A"></p>
             <p><font style="font-size:87.5%;color:#777;"> &gt; read_rds(“message.rds”) %&gt;% cat()</p>
             <p>Hi there!</p>
             <p>My name is <strong>Bart Rogiers</strong>, and I’m a <strong>scientific researcher</strong> and <strong><a href="https://www.r-project.org/">R</a> enthusiast</strong> at the <strong><a href="https://www.sckcen.be/en">Belgian Nuclear Research Centre</a></strong> (aka SCK CEN). I also have a seat in the council of the <strong><a href="https://iah.org/">International Association of Hydrogeologists</a>’ <a href="https://belgium.iah.org/">Belgian chapter</a></strong>. Besides coding and science, <strong>I also love being creative</strong> with pencil, paint, photos and guitars.</p>
@@ -68,7 +68,7 @@
             <p>&gt; df &lt;- tbl(con, “projects”) %&gt;% collect()<br> &gt; df %&gt;% filter(class == “science”) %&gt;% pull(name)</p>
             <p>[1] <a href="https://iah2021belgium.org/">48th-iah-congres</a> <a href="https://rogiersbart.github.io/RMODFLOW">rmodflow</a> <a href="https://github.com/rogiersbart/mnemosyne">mnemosyne</a> <a href="https://www.futurefloodplains.be/">future-floodplains</a> <a href="https://www.micado-project.eu/">micado</a> <a href="http://insider-h2020.eu/">insider</a> <a href="https://www.chance-h2020.eu/">chance</a></p>
             <p>&gt; df %&gt;% filter(class == “art”) %&gt;% pull(name)</p>
-            <p>[1] <a href="https://rogiersbart.github.io/espresso/">espresso</a> <a href="https://rogiersbart.github.io/greetings/">greetings</a></p>
+            <p>[1] <a href="https://rogiersbart.github.io/espresso/">espresso</a> <a href="https://rogiersbart.github.io/greetings/">greetings</a> <a href="https://rogiersbart.github.io/weekly/">weekly</a></p>
             <!-- music -->
             <!-- photography -->
             <p>&gt; df %&gt;% filter(is.na(class)) %&gt;% pull(name)</p>
@@ -93,7 +93,12 @@
             <div class="row justify-content-center align-items-center">
               <div class="col-8 p-1 text-center">
                 <div class="list-group">
-                                                      <a href="https://twitter.com/rogiersbart">
+                                                      <a href="https://github.com/rogiersbart">
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+                      github
+                    </button>
+                  </a>
+                                                                        <a href="https://twitter.com/rogiersbart">
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded">
                       twitter
                     </button>
@@ -103,16 +108,11 @@
                       email
                     </button>
                   </a>
-                                                                        <a href="https://github.com/rogiersbart">
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      github
-                    </button>
-                  </a>
                                                     </div>
               </div>
             </div>
             <div class="p pt-4 px-5">
-              <p><link rel="stylesheet" href="data:text/css,%2Eh1%2C%20h1%20%7B%0Acolor%3A%20%23555%3B%0A%7D%0Abody%20%7B%0Afont%2Dfamily%3A%20%27Fira%20Code%27%2C%20%27Fira%20Mono%27%2C%20%27Roboto%20Slab%27%2C%20serif%3B%0Acolor%3A%20%23333%3B%0A%7D%0Aa%2C%20a%3Alink%2C%20a%3Avisited%2C%20a%3Aactive%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%23333%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0A%23content%20%7B%0Amax%2Dwidth%3A%20700px%3B%0A%7D%0Ab%2C%20strong%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0A"></p>
+              <p><link rel="stylesheet" href="data:text/css,%2Eh1%2C%20h1%20%7B%0Acolor%3A%20%23555%3B%0A%7D%0Abody%20%7B%0Afont%2Dfamily%3A%20%27Fira%20Code%27%2C%20%27Fira%20Mono%27%2C%20%27Roboto%20Slab%27%2C%20serif%3B%0Acolor%3A%20%23333%3B%0A%7D%0Aa%2C%20a%3Alink%2C%20a%3Avisited%2C%20a%3Aactive%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%23333%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0A%23content%20%7B%0Amax%2Dwidth%3A%20700px%3B%0A%7D%0Ab%2C%20strong%20%7B%0Acolor%3A%20%23777%3B%0A%7D%0Aimg%2Erounded%20%7B%0Aborder%2Dradius%3A%2050%25%21important%3B%0A%7D%0A"></p>
               <p><font style="font-size:87.5%;color:#777;"> &gt; read_rds(“message.rds”) %&gt;% cat()</p>
               <p>Hi there!</p>
               <p>My name is <strong>Bart Rogiers</strong>, and I’m a <strong>scientific researcher</strong> and <strong><a href="https://www.r-project.org/">R</a> enthusiast</strong> at the <strong><a href="https://www.sckcen.be/en">Belgian Nuclear Research Centre</a></strong> (aka SCK CEN). I also have a seat in the council of the <strong><a href="https://iah.org/">International Association of Hydrogeologists</a>’ <a href="https://belgium.iah.org/">Belgian chapter</a></strong>. Besides coding and science, <strong>I also love being creative</strong> with pencil, paint, photos and guitars.</p>
@@ -120,7 +120,7 @@
               <p>&gt; df &lt;- tbl(con, “projects”) %&gt;% collect()<br> &gt; df %&gt;% filter(class == “science”) %&gt;% pull(name)</p>
               <p>[1] <a href="https://iah2021belgium.org/">48th-iah-congres</a> <a href="https://rogiersbart.github.io/RMODFLOW">rmodflow</a> <a href="https://github.com/rogiersbart/mnemosyne">mnemosyne</a> <a href="https://www.futurefloodplains.be/">future-floodplains</a> <a href="https://www.micado-project.eu/">micado</a> <a href="http://insider-h2020.eu/">insider</a> <a href="https://www.chance-h2020.eu/">chance</a></p>
               <p>&gt; df %&gt;% filter(class == “art”) %&gt;% pull(name)</p>
-              <p>[1] <a href="https://rogiersbart.github.io/espresso/">espresso</a> <a href="https://rogiersbart.github.io/greetings/">greetings</a></p>
+              <p>[1] <a href="https://rogiersbart.github.io/espresso/">espresso</a> <a href="https://rogiersbart.github.io/greetings/">greetings</a> <a href="https://rogiersbart.github.io/weekly/">weekly</a></p>
               <!-- music -->
               <!-- photography -->
               <p>&gt; df %&gt;% filter(is.na(class)) %&gt;% pull(name)</p>

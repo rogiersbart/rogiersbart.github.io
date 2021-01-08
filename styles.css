@@ -18,3 +18,6 @@ a:hover {
 b, strong {
   color: #777;
 }
+img.rounded {
+  border-radius: 50%!important;
+}

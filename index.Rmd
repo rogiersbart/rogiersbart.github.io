@@ -2,9 +2,9 @@
 title: "Bart Rogiers"
 image: "https://pbs.twimg.com/profile_images/1030920154295746560/UndfdONg_400x400.jpg"
 links:
+  - github: "https://github.com/rogiersbart"
   - twitter: "https://twitter.com/rogiersbart"
   - email: "mailto:rogiers.bart@gmail.com"
-  - github: "https://github.com/rogiersbart"
 output:
   postcards::trestles
 favicon: "favicon.ico"
@@ -46,6 +46,7 @@ involved in, or just doing out in the open. I love feedback on any of these, so
 [1]
 [espresso](https://rogiersbart.github.io/espresso/)
 [greetings](https://rogiersbart.github.io/greetings/)
+[weekly](https://rogiersbart.github.io/weekly/)
 
 <!-- music -->
 
