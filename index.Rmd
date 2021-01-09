@@ -35,7 +35,7 @@ involved in, or just doing out in the open. I love feedback on any of these, so
 [1]
 [48th-iah-congres](https://iah2021belgium.org/)
 [rmodflow](https://rogiersbart.github.io/RMODFLOW)
-[mnemosyne](https://github.com/rogiersbart/mnemosyne)
+[mnemosyne](https://rogiersbart.github.io/mnemosyne/)
 [future-floodplains](https://www.futurefloodplains.be/)
 [micado](https://www.micado-project.eu/)
 [insider](http://insider-h2020.eu/)
@@ -47,10 +47,6 @@ involved in, or just doing out in the open. I love feedback on any of these, so
 [espresso](https://rogiersbart.github.io/espresso/)
 [greetings](https://rogiersbart.github.io/greetings/)
 [weekly](https://rogiersbart.github.io/weekly/)
-
-<!-- music -->
-
-<!-- photography -->
 
 \> df %>% filter(is.na(class)) %>% pull(name)
 
