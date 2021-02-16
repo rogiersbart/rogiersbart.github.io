@@ -2,15 +2,17 @@
 title: "Bart Rogiers"
 image: "https://pbs.twimg.com/profile_images/1030920154295746560/UndfdONg_400x400.jpg"
 links:
-  - github: "https://github.com/rogiersbart"
-  - twitter: "https://twitter.com/rogiersbart"
-  - email: "mailto:rogiers.bart@gmail.com"
+  - label: github
+    url: "https://github.com/rogiersbart"
+  - label: twitter
+    url: "https://twitter.com/rogiersbart"
+  - label: email
+    url: "mailto:rogiers.bart@gmail.com"
 output:
-  postcards::trestles
+  postcards::trestles:
+    css: "styles.css"
 favicon: "favicon.ico"
 ---
- 
-<link rel="stylesheet" href="styles.css">
 
 <font style='font-size:87.5%;color:#777;'>
 \> read_rds("message.rds") %>% cat()
@@ -40,6 +42,7 @@ involved in, or just doing out in the open. I love feedback on any of these, so
 [micado](https://www.micado-project.eu/)
 [insider](http://insider-h2020.eu/)
 [chance](https://www.chance-h2020.eu/)
+[cv](https://rogiersbart.github.io/cv/)
 
 \> df %>% filter(class == "art") %>% pull(name)
 
