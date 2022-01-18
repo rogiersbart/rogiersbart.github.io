@@ -22,7 +22,8 @@ favicon: "favicon.ico"
 ```
 
 <font style='font-size:87.5%;color:#333;'>
-<div class="code">read_rds(&#34;message.rds&#34;) %>% cat()</div>
+<div class="code">library(tidyverse)<br>
+read_rds(&#34;message.rds&#34;) %>% cat()</div>
 <div class="out">
 Hi there!
 
@@ -51,6 +52,7 @@ df %>% filter(class == &#34;science&#34;) %>% pull(name)</div>
 &#34;[MICADO](https://www.micado-project.eu/)&#34;
 &#34;[INSIDER](http://insider-h2020.eu/)&#34;
 &#34;[CHANCE](https://www.chance-h2020.eu/)&#34;
+&#34;[STRATEGIST](https://strategist.sckcen.be/)&#34;
 &#34;[cv](https://rogiersbart.github.io/cv/)&#34;
 </div>
 

@@ -68,7 +68,7 @@
           <div class="my-5" id="content">
             <font style='font-size:87.5%;color:#333;'>
             <div class="code">
-            read_rds("message.rds") %&gt;% cat()
+            library(tidyverse)<br> read_rds("message.rds") %&gt;% cat()
             </div>
             <div class="out">
             <p>Hi there!</p>
@@ -79,7 +79,7 @@
             df &lt;- tbl(con, "projects") %&gt;% collect()<br> df %&gt;% filter(class == "science") %&gt;% pull(name)
             </div>
             <div class="out">
-            <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
+            <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://strategist.sckcen.be/">STRATEGIST</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
             </div>
             <div class="code">
             df %&gt;% filter(class == "art") %&gt;% pull(name)
@@ -135,7 +135,7 @@
             <div class="p pt-4 px-5">
               <font style='font-size:87.5%;color:#333;'>
               <div class="code">
-              read_rds("message.rds") %&gt;% cat()
+              library(tidyverse)<br> read_rds("message.rds") %&gt;% cat()
               </div>
               <div class="out">
               <p>Hi there!</p>
@@ -146,7 +146,7 @@
               df &lt;- tbl(con, "projects") %&gt;% collect()<br> df %&gt;% filter(class == "science") %&gt;% pull(name)
               </div>
               <div class="out">
-              <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
+              <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://strategist.sckcen.be/">STRATEGIST</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
               </div>
               <div class="code">
               df %&gt;% filter(class == "art") %&gt;% pull(name)
