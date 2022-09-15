@@ -7,18 +7,21 @@ body {
   color: #333;
 }
 a, a:link, a:visited, a:active {
-    color: #337ab7;
+  color: #337ab7;
+  text-decoration: none;
 }
 a:hover {
   color: #1f66b6;
   text-decoration: underline;
 }
+/*
 #content {
   max-width: 700px;
-}
+}*/
 b, strong {
   color: #777;
 }
+/*
 img.rounded {
   border-radius: 50%!important;
 }
@@ -28,19 +31,54 @@ img.rounded {
 }
 .mb-2, .my-2 {
   margin-bottom: 0rem!important;
-}
+} */
 .code {
   background-color: #f8f8f8;
-  border: 1px solid #eee;
+  border: 1px solid #e7e7e7;
   padding: 9.5px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .out {
   padding: 9.5px;
 }
+/*
 .border-left {
     border-left: 0px solid #dee2e6!important;
 }
+*/
+
+/* for quarto */
+
+main {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+p {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+div.quarto-about-trestles .about-contents {
+  border-left: 0px solid #dee2e6!important;
+  justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex !important;
+}
+div.quarto-about-trestles .about-entity .about-link {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  font-size: 87.5%;
+}
+
+body.fullcontent:not(.floating):not(.docked) .page-columns {
+    grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start]minmax(500px, calc(1250px - 3em)) [body-content-end] 1.5em [body-end] 35px [body-end-outset] 35px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em [screen-end];
+}
+
+div.quarto-about-trestles .about-entity {
+  padding-right: 0em;
+  justify-content: center;
+}
+
 
 /* Contents of https://fonts.googleapis.com/css?family=Fira%20Code */
 

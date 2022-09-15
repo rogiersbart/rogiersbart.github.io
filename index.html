@@ -1,177 +1,203 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.364">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-    <title>Bart Rogiers</title>
 
-          <link rel="shortcut icon" href=favicon.ico>
+<title>Bart Rogiers</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
     
-          <script src="index_files/header-attrs-2.11/header-attrs.js"></script>
-    
-          <link rel="stylesheet" href="styles.css" type="text/css" />
-    
-  </head>
-  <body>
+<!-- main -->
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="profile.jpg" class="about-image
+  round " style="height: 240px; width: 240px;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Bart Rogiers</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://github.com/rogiersbart" class="about-link">github</a>
+  <a href="https://twitter.com/rogiersbart" class="about-link">twitter</a>
+  <a href="mailto:rogiers.bart@gmail.com" class="about-link">email</a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<font style="font-size:87.5%;color:#333;">
+<div class="code">
+readLines("message.txt") |&gt; cat()
+</div>
+<div class="out">
+<p>Hi there!</p>
+<p>My name is Bart Rogiers, and I'm a scientific researcher and <a href="https://www.r-project.org/">R</a> expert at the <a href="https://www.sckcen.be/en">Belgian Nuclear Research Centre</a>. I also have a seat in the council of the <a href="https://iah.org/">International Association of Hydrogeologists</a>' <a href="https://belgium.iah.org/">Belgian chapter</a>.</p>
+<p>I live in the beautiful <a href="https://en.wikipedia.org/wiki/Hesbaye">Haspengouw</a> region, am a proud father of two and husband to an amazing wife. When not playing (<a href="https://mgba.io/">retro</a>/<a href="https://www.minetest.net/">voxel</a> games, i.a.) with my kids or practising asanas, I love being creative in the art space.</p>
+<p>You can find some links here to things I'm doing out in the open. I love feedback on any of these, so do not hesitate to reach out!</p>
+</div>
+<div class="code">
+df &lt;- arrow::open_dataset(“projects”) |&gt; dplyr::collect()<br> df |&gt; dplyr::filter(class == "science") |&gt; dplyr::pull(name)
+</div>
+<div class="out">
+<p>[1] "<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>" "<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
+</div>
+<div class="code">
+df |&gt; subset(class == "art") |&gt; with(name)
+</div>
+<div class="out">
+<p>[1] "<a href="https://rogiersbart.github.io/espresso/">espresso</a>" "<a href="https://rogiersbart.github.io/greetings/">greetings</a>" "<a href="https://rogiersbart.github.io/weekly/">weekly</a>"</p>
+</div>
+<div class="code">
+df$name[is.na(df$class)]
+</div>
+<div class="out">
+<p>[1] "<a href="https://rogiersbart.github.io/rui/">rui</a>" "<a href="https://rogiersbart.github.io/spectralscale/">spectralscale</a>"</p>
+</div>
+</font><p><font style="font-size:87.5%;color:#333;"></font></p>
 
-    
-    <div class="container-fluid d-none d-lg-block d-xl-block">
-      <div class="d-flex row flex-row vh-100">
-        <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
-          <div class="mx-auto text-center">
-            <div class="p-3">
-              <img src=https://pbs.twimg.com/profile_images/1030920154295746560/UndfdONg_400x400.jpg style="height:15rem" class="rounded">
-            </div>
-            <div class="p-2">
-              <h1>Bart Rogiers</h1>
-            </div>
-            <hr style="width:60%;"/>
-            <div class="p-2">
-              <div id="icon-list">
-                <ul class="list-inline">
-                                    <li class="list-inline-item">
-                    <a href=https://github.com/rogiersbart>
-                      <button type="button" class="btn btn-outline-dark mb-2">
-                        github
-                      </button>
-                    </a>
-                  </li>
-                                    <li class="list-inline-item">
-                    <a href=https://twitter.com/rogiersbart>
-                      <button type="button" class="btn btn-outline-dark mb-2">
-                        twitter
-                      </button>
-                    </a>
-                  </li>
-                                    <li class="list-inline-item">
-                    <a href=mailto:rogiers.bart@gmail.com>
-                      <button type="button" class="btn btn-outline-dark mb-2">
-                        email
-                      </button>
-                    </a>
-                  </li>
-                                  </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex flex-column vh-100 border-left"></div>
-        <div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;">
-          <div class="my-5" id="content">
-            <font style='font-size:87.5%;color:#333;'>
-            <div class="code">
-            library(tidyverse)<br> read_rds("message.rds") %&gt;% cat()
-            </div>
-            <div class="out">
-            <p>Hi there!</p>
-            <p>My name is Bart Rogiers, and I'm a scientific researcher and <a href="https://www.r-project.org/">R</a> enthusiast at the <a href="https://www.sckcen.be/en">Belgian Nuclear Research Centre</a> (aka SCK CEN). I also have a seat in the council of the <a href="https://iah.org/">International Association of Hydrogeologists</a>' <a href="https://belgium.iah.org/">Belgian chapter</a>. Besides coding and science, I love being creative with pencil, paint, a camera and guitars.</p>
-            <p>You can find some contact information here, as well as some links to things I'm involved in, or just doing out in the open. I love feedback on any of these, so do not hesitate to reach out!</p>
-            </div>
-            <div class="code">
-            df &lt;- tbl(con, "projects") %&gt;% collect()<br> df %&gt;% filter(class == "science") %&gt;% pull(name)
-            </div>
-            <div class="out">
-            <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://strategist.sckcen.be/">STRATEGIST</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
-            </div>
-            <div class="code">
-            df %&gt;% filter(class == "art") %&gt;% pull(name)
-            </div>
-            <div class="out">
-            <p>[1] "<a href="https://rogiersbart.github.io/espresso/">espresso</a>" "<a href="https://rogiersbart.github.io/greetings/">greetings</a>" "<a href="https://rogiersbart.github.io/weekly/">weekly</a>"</p>
-            </div>
-            <div class="code">
-            df %&gt;% filter(is.na(class)) %&gt;% pull(name)
-            </div>
-            <div class="out">
-            <p>[1] "{<a href="https://rogiersbart.github.io/rui/">rui</a>}" "{<a href="https://rogiersbart.github.io/spectralscale/">spectralscale</a>}"</p>
-            </div>
-            <p></font></p>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
-      <div class="d-flex flex-row justify-content-center">
-        <div class="d-flex flex-col">
-          <div class="mx-auto">
-            <div class="p-3 mt-3 text-center">
-              <img src=https://pbs.twimg.com/profile_images/1030920154295746560/UndfdONg_400x400.jpg style="height:15rem" class="rounded">
-            </div>
-            <div class="p-2 text-center">
-              <h1>Bart Rogiers</h1>
-            </div>
-            <hr style="width:60%;"/>
+</main></div>
+</div>
+ <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
 
-            <div class="row justify-content-center align-items-center">
-              <div class="col-8 p-1 text-center">
-                <div class="list-group">
-                                    <a href=https://github.com/rogiersbart>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      github
-                    </button>
-                  </a>
-                                    <a href=https://twitter.com/rogiersbart>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      twitter
-                    </button>
-                  </a>
-                                    <a href=mailto:rogiers.bart@gmail.com>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      email
-                    </button>
-                  </a>
-                                  </div>
-              </div>
-            </div>
-            <div class="p pt-4 px-5">
-              <font style='font-size:87.5%;color:#333;'>
-              <div class="code">
-              library(tidyverse)<br> read_rds("message.rds") %&gt;% cat()
-              </div>
-              <div class="out">
-              <p>Hi there!</p>
-              <p>My name is Bart Rogiers, and I'm a scientific researcher and <a href="https://www.r-project.org/">R</a> enthusiast at the <a href="https://www.sckcen.be/en">Belgian Nuclear Research Centre</a> (aka SCK CEN). I also have a seat in the council of the <a href="https://iah.org/">International Association of Hydrogeologists</a>' <a href="https://belgium.iah.org/">Belgian chapter</a>. Besides coding and science, I love being creative with pencil, paint, a camera and guitars.</p>
-              <p>You can find some contact information here, as well as some links to things I'm involved in, or just doing out in the open. I love feedback on any of these, so do not hesitate to reach out!</p>
-              </div>
-              <div class="code">
-              df &lt;- tbl(con, "projects") %&gt;% collect()<br> df %&gt;% filter(class == "science") %&gt;% pull(name)
-              </div>
-              <div class="out">
-              <p>[1] "{<a href="https://rogiersbart.github.io/RMODFLOW/">RMODFLOW</a>}" "{<a href="https://rogiersbart.github.io/RMT3DMS/">RMT3DMS</a>}" "<a href="https://rogiersbart.github.io/mnemosyne/">mnemosyne</a>" "<a href="https://www.futurefloodplains.be/">Future Floodplains</a>" "<a href="https://www.micado-project.eu/">MICADO</a>" "<a href="http://insider-h2020.eu/">INSIDER</a>" "<a href="https://www.chance-h2020.eu/">CHANCE</a>" "<a href="https://strategist.sckcen.be/">STRATEGIST</a>" "<a href="https://rogiersbart.github.io/cv/">cv</a>"</p>
-              </div>
-              <div class="code">
-              df %&gt;% filter(class == "art") %&gt;% pull(name)
-              </div>
-              <div class="out">
-              <p>[1] "<a href="https://rogiersbart.github.io/espresso/">espresso</a>" "<a href="https://rogiersbart.github.io/greetings/">greetings</a>" "<a href="https://rogiersbart.github.io/weekly/">weekly</a>"</p>
-              </div>
-              <div class="code">
-              df %&gt;% filter(is.na(class)) %&gt;% pull(name)
-              </div>
-              <div class="out">
-              <p>[1] "{<a href="https://rogiersbart.github.io/rui/">rui</a>}" "{<a href="https://rogiersbart.github.io/spectralscale/">spectralscale</a>}"</p>
-              </div>
-              <p></font></p>
-            </div>
-        </div>
-      </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-  
-  </body>
-</html>
+</body></html>
