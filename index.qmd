@@ -6,8 +6,6 @@ about:
   links:
     - text: github
       href: https://github.com/rogiersbart
-    - text: twitter
-      href: https://twitter.com/rogiersbart
     - text: email
       href: "mailto:rogiers.bart@gmail.com"
   image-width: 240px
@@ -38,15 +36,17 @@ You can find some links here to things I&apos;m doing out in the open. I love
 feedback on any of these, so do not hesitate to reach out!
 </div>
 
-<div class="code">df <- arrow::open_dataset("projects") |> dplyr::collect()<br>
-df |> dplyr::filter(class == &#34;science&#34;) |> dplyr::pull(name)</div>
+<div class="code">df <- arrow::open_dataset(&#34;projects&#34;) |> dplyr::collect()<br>
+df |> dplyr::filter(class == &#34;#rstats&#34;) |> dplyr::pull(name)</div>
 
 <div class="out">
 [1]
 &#34;[RMODFLOW](https://rogiersbart.github.io/RMODFLOW/)&#34;
 &#34;[RMT3DMS](https://rogiersbart.github.io/RMT3DMS/)&#34;
-&#34;[mnemosyne](https://rogiersbart.github.io/mnemosyne/)&#34;
-&#34;[cv](https://rogiersbart.github.io/cv/)&#34;
+&#34;[nmhsa](https://rogiersbart.github.io/nmhsa/)&#34;
+&#34;[rui](https://rogiersbart.github.io/rui/)&#34;
+&#34;[spectralscale](https://rogiersbart.github.io/spectralscale/)&#34;
+&#34;[bro](https://rogiersbart.github.io/bro/)&#34;
 </div>
 
 <div class="code">df |> subset(class == &#34;art&#34;) |> with(name)</div>
@@ -62,8 +62,6 @@ df |> dplyr::filter(class == &#34;science&#34;) |> dplyr::pull(name)</div>
 
 <div class="out">
 [1]
-&#34;[rui](https://rogiersbart.github.io/rui/)&#34;
-&#34;[spectralscale](https://rogiersbart.github.io/spectralscale/)&#34;
-&#34;[bro](https://rogiersbart.github.io/bro/)&#34;
+&#34;[cv](https://rogiersbart.github.io/cv/)&#34;
 </div>
 </font>
