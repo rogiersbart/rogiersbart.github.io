@@ -4,9 +4,11 @@ about:
   template: trestles
   image: "profile.jpg"
   links:
-    - text: github
-      href: https://github.com/rogiersbart
-    - text: email
+    - text: Work
+      icon: envelope-fill
+      href: "mailto:bart.rogiers@sckcen.be"
+    - text: Private
+      icon: envelope-fill
       href: "mailto:rogiers.bart@gmail.com"
   image-width: 240px
   image-shape: round
@@ -28,7 +30,7 @@ programming](https://en.wikipedia.org/wiki/Probabilistic_programming), [procedur
 
 I live in the beautiful [Haspengouw](https://en.wikipedia.org/wiki/Hesbaye)
 region, am a proud father of two and husband to an amazing wife. When not
-playing [retro](https://mgba.io/)/[voxel](https://www.minetest.net/) games with our kids,
+playing [retro](https://www.retroarch.com) or [voxel](https://www.minetest.net) games with our kids,
 reading them stories about [Middle-Earth](https://en.wikipedia.org/wiki/Middle-earth), or practising [asanas](https://en.wikipedia.org/wiki/Asana) and [taegeuk](https://en.wikipedia.org/wiki/Taegeuk_(taekwondo)), I love
 being creative in the art space.
 

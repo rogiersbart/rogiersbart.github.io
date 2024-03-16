@@ -41,6 +41,9 @@ img.rounded {
 .out {
   padding: 9.5px;
 }
+i.bi {
+  color: #777;
+}
 /*
 .border-left {
     border-left: 0px solid #dee2e6!important;
